@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabrin | Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-content">
+      <a href="#home" class="brand">Sabrin khader</a>
+      <nav class="navigation" id="navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Hi, I’m Sabrin khader</span>
+          <h1>Front-End Developer</h1>
+          <p>I create clean, elegant websites and web apps with smart design, fast performance, and thoughtful interactions.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="button button-primary">Work with me</a>
+            <a href="#projects" class="button button-secondary">See projects</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img class="hero-card-image" src="about.jpg" alt="my image" />
+          <div class="hero-card-inner">
+            <p>My portfolio is built to highlight:</p>
+            <ul>
+              <li>Web applications</li>
+              <li>Responsive design</li>
+              <li>Reliable front-end solutions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container section-grid">
+        <div class="section-text">
+          <span class="eyebrow">About Me</span>
+          <h2>Front-End Developer with a clear, calm style.</h2>
+          <p>I build websites that feel professional and easy to use. I enjoy turning ideas into working projects and learning the best way to connect front-end interfaces with server logic.</p>
+          <p>My experience includes HTML, CSS, JavaScript, responsive layouts, API work, and tooling for modern apps.</p>
+          <div class="small-cards">
+            <div>
+              <strong>Projects</strong>
+              <p>Simple, useful sites built with thoughtful structure.</p>
+            </div>
+            <div>
+              <strong>Design</strong>
+              <p>Clean layouts with strong color and white space.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-box">
+          <img class="about-image" src="about.jpg" alt="About Sabrina" />
+          <h3>What I offer</h3>
+          <ul>
+            <li>Modern landing pages</li>
+            <li>Web apps and dashboards</li>
+            <li>Maintenance and updates</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="services">
+      <div class="container">
+        <span class="eyebrow">Services</span>
+        <h2>What I can help you with</h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Web Development</h3>
+            <p>Build responsive websites using HTML, CSS, and JavaScript that look good on any screen.</p>
+          </article>
+          <article class="service-card">
+            <h3>Full-Stack Support</h3>
+            <p>Connect the front end with backend services, APIs, and data in an organized way.</p>
+          </article>
+          <article class="service-card">
+            <h3>Project Design</h3>
+            <p>Create polished page layouts with strong spacing and a calm aesthetic.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <span class="eyebrow">Portfolio</span>
+        <h2>Featured projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img class="project-image" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Project One" />
+            <div class="project-copy">
+              <h3>Project One</h3>
+              <p>A clean website layout with bold typography and easy navigation.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <img class="project-image" src="https://i.pinimg.com/1200x/19/f9/d6/19f9d6c61e821df1457e3bee891101f5.jpg" alt="Project Two" />
+            <div class="project-copy">
+              <h3>Project Two</h3>
+              <p>A web application screen built for clarity, speed, and user focus.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <img class="project-image" src="https://i.pinimg.com/736x/60/1c/40/601c40a413d94eebbe75c3461bd1b803.jpg" alt="Project Three" />
+            <div class="project-copy">
+              <h3>Project Three</h3>
+              <p>A responsive dashboard concept showing smart spacing and strong structure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <span class="eyebrow">Contact</span>
+          <h2>Ready to start something?</h2>
+          <p>Send a message and let’s talk about your next project. I can help you make a simple site or a full web app.</p>
+          <div class="contact-details">
+            <p><strong>Email:</strong> sabrinkhader@gmail.com</p>
+            <p><strong>Location:</strong> mogadishu somalia</p>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button type="submit" class="button button-primary">Send message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Sabrina • Front-End Developer</p>
+      
+    </div>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
